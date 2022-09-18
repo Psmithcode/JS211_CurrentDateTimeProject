@@ -17,6 +17,7 @@ const displayDate = () => {
 const numberToString = (num) => {
   let toString = num.toString();
   console.log("Number to String:", toString);
+  document.getElementById("toStringDisplay").innerHTML = toString;
 };
 numberToString(17);
 
